@@ -19,6 +19,10 @@ body{
 }
 
 #calculator-container{
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
     width: 100%;
     max-width: 380px;
     background: rgba(255, 255, 255, 0.9);
